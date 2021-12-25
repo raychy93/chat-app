@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Ogg;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Ogg,
+    monospace;
+}
+
+.video-container {
+  width:50%;
+  height:100%
+}
+
+.messaging-container {
+  width:50%
+}
+
+.auth-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #070a0d;
+  display: flex;
+  justify-content: center;
+
+}
+.auth-container-box{
+  background-color: #151a1f;
+  
+  align-self: center;
+
+}
+
+.auth-container-form {
+  display: flex;
+  font-family:Ogg;
+  flex-direction:column;
+  padding: 5px;
+
+}
+.auth-container-form input {
+
+  font-size: 20px;
+  padding: 8px;
+  margin: 0 0 8px 0;
+
+}
+
+.auth-options {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.auth-options button {
+
+  width: 50%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  background-color: #151a1f;
+  padding: 8px;
+
+}
+
+.standard-button {
+
+  background-color: moccasin;
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+  padding: 8px;
+  width: 100%;
+
+}
+
+.standard-button:hover {
+  background-color: maroon;
+}
